@@ -1,0 +1,12 @@
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.exe.config
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.exe
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.pdb
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.csprojResolveAssemblyReference.cache
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.exe
+C:\src\git\CanadianShippingTaxes\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.pdb
+C:\src\git\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.exe.config
+C:\src\git\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.exe
+C:\src\git\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.pdb
+C:\src\git\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.exe
+C:\src\git\Job.Scheduler\Job.Scheduler\bin\Debug\Job.Scheduler.pdb
+C:\src\git\Job.Scheduler\Job.Scheduler\obj\Debug\Job.Scheduler.csprojResolveAssemblyReference.cache
