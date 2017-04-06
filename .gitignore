@@ -1,5 +1,7 @@
 [Bb]in
 [Oo]bj
+/Job.Scheduler/[Bb]in
+/Job.Scheduler/[Oo]bj
 [Pp]ackages/
 _ReSharper.*
 *.dotCover
