@@ -56,8 +56,7 @@ namespace Job.Scheduler
             // End of Range of 366 * 8 to cover the edge case of when it is only scheduled to run on leap days
             // and it needs to run over the instance of their being no leap year for 8 years (Centuries not divisible by 400)
             // In most other cases it should find a result within the first 364 days.
-            var daysUntilStopDate = ((DateTime)stopDate - searchStartDate).TotalDays;
-            var searchRangeEnd = (stopDate != null && daysUntilStopDate < 366 * 8) ? daysUntilStopDate : 366 * 8;
+            var searchRangeEnd = (stopDate == null) ? 366*8 : Math.Min(((DateTime)stopDate - searchStartDate).TotalDays,366 * 8);
 
             for (var i = 0; i <= searchRangeEnd; i++)
             {
@@ -103,8 +102,7 @@ namespace Job.Scheduler
             // End of Range of 366 * 8 to cover the edge case of when it is only scheduled to run on leap days
             // and it needs to run over the instance of their being no leap year for 8 years (Centuries not divisible by 400)
             // In most other cases it should find a result within the first 364 days.
-            var daysUntilStopDate = ((DateTime) stopDate - searchStartDate).TotalDays;
-            var searchRangeEnd = (stopDate != null && daysUntilStopDate < 366*8) ? daysUntilStopDate : 366*8;
+            var searchRangeEnd = (stopDate == null) ? 366 * 8 : Math.Min(((DateTime)stopDate - searchStartDate).TotalDays, 366 * 8);
 
             for (var i = 0; i <= searchRangeEnd; i++)
             {
